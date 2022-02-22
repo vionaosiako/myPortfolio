@@ -1,3 +1,11 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
 .nav{
     background-image: url(images/IMG-20220222-WA0010.jpg);
     height: 100vh;
@@ -37,4 +45,23 @@
     padding: 20px;
     justify-content: center;
     font-size: 30px;
+}
+
+.servicesMain{
+   text-align: center;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    border-style: groove;
+    margin: 20px;
+}
+
+.card img{
+    width: 50%;
 }
