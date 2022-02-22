@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+}
+
+#menu ul li{
+    margin: 20px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
