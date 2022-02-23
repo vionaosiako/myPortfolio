@@ -44,7 +44,22 @@
     margin: 30px;
     padding: 20px;
     justify-content: center;
-    font-size: 30px;
+    /* font-size: 30px; */
+}
+
+/* .resumeMain{
+    text-align: center;
+    
+} */
+.resume{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.resumeCard{
+    width: 50%;
+    margin: 20px;
 }
 
 .servicesMain{
