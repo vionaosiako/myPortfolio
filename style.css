@@ -208,4 +208,58 @@ h4{
     margin: 20px;
 }
 
+@media screen and (max-width: 500px){
+    .navbar{
+        flex-wrap: wrap;
+    }    
+}
+
+@media screen and (max-width:870px){
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutUs{
+        flex-direction: column;
+    }
+
+    .contactUs{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .banner{
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width:950px){
+    .resume{
+        flex-wrap: wrap;
+    }   
+}
+
+@media screen and (max-width:1050px){
+    .services{
+        flex-wrap: wrap;
+    }
+        
+}
+@media screen and (max-width:1130px){
+    .portfolio{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .footerCon{
+        flex-direction: column;
+    }
+  
+}
+
 
