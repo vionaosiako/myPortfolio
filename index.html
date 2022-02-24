@@ -6,48 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <!-- <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css"> -->
     <title>My portfolio</title>
     
 </head>
 <body>
-    <div class="nav">
-        <div class="navbar">
-            <div>
-                <h1>TheLioness</h1>
-            </div>
-
-            <div id="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#aboutUsMain">About Us</a></li>
-                    <li><a href="#servicesMain">Services</a></li>
-                    <li><a href="#portfolioMain">My Portfolio</a></li>
-                    <li><a href="#mainContactUs">Contact Us</a></li>                
-
-                </ul>
-            </div>
-
+    <div class="navbar">
+        <div >
+            <h1>TheLioness</h1>
+            
         </div>
 
-    </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutUsMain">About Us</a></li>
+                <li><a href="#servicesMain">Services</a></li>
+                <li><a href="#portfolioMain">My Portfolio</a></li>
+                <li><a href="#mainContactUs">Contact Us</a></li>                
+            </ul>
+        </div>
 
-    <!--End of nav section-->
+    </div><!--End of nav section-->
+
+    <div class="banner">
+        <!--Displays the banner-->
+            
+    </div>
 
     
     <div class="aboutUsMain" id="aboutUsMain">
         
-        <h1>About Us</h1>
+        
         <div class="aboutUs">
             <div>
-                <img src="images/about.jpeg" alt="About Us">
+                <img src="images/aboutUs.jpg" alt="About Us">
             </div>
 
             <div>
-                <p>I am <strong> Viona Anyona Osiako</strong>.  I am passionate about software development.
-                    I am interested in science and technology. 
+                <h1>About Us</h1>
+                <p>I am <strong> Viona Anyona Osiako</strong>.  I am passionate about software development. I am interested in science and technology. 
                     Technology is running the world now, since its like a neccesity for every organization. 
                     I enjoy codding and I believe I carry solutions. I am look forward to be a software quality engineer.
-                    I am squre in my deals and like collaboration. I am an excellent worker because I am both possessive and emotional. 
+                    I am straight forward in my deals and like collaboration. I am an excellent worker. 
                     I alway do my best to ensure I deliver the best. 
                 </p>
             </div>
@@ -58,10 +59,46 @@
     <div class="resumeMain">
         <h1 style="text-align: center;">Resume</h1>
 
+        <div>
+            
+        </div>
+
+        
         <div class="resume">
 
             <div class="resumeCard">
                 <h1>Personal Details</h1>
+                <table>
+                    <tbody>
+                        <!-- <th>Personal Details</th> -->
+                        <tr>
+                          <th scope="row">Name</th>
+                          <td>Viona Anyona Osiako</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Date of Birth</th>
+                          <td>01/08/1998</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Nationality</th>
+                          <td>Kenyan</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Language</th>
+                            <td>English and Kiswahili</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Mobile no</th>
+                            <td>0703616854</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Email Address</th>
+                            <td>osiakoviona@gmail.com</td>
+                          </tr>
+                      </tbody>
+                    </table>
+            
+                <!-- <h1>Personal Details</h1>
                 <ul>
                     <li><span> Name: </span> Viona Anyona Osiako</li>
                     <li><span>Date of Birth: </span>01/08/1998</li>
@@ -70,7 +107,7 @@
                     <li><span>Mobile no: </span>0703616854</li>
                     <li><span>Email Address: </span>osiakoviona@gmail.com</li>
                 </ul>
-                <br>
+                <br> -->
                                     
                 <h1>Personal Attributes</h1>
                 <p>
@@ -79,7 +116,7 @@
                 </p>
             </div>
 
-            <div>
+            <div class="resumeCard">
                 <h1>Education Background</h1>
                 <b>January, 2022 - ongoing</b>
                 <P>Software Development- Moringa School.</P>
@@ -122,19 +159,9 @@
             </div>
         </div>
 
-    </div><!--End of skills section-->
+    </div><!--End of resume section-->
 
-    <!-- <div>
-        <h1>My skills</h1>
-
-        <div>
-
-            <label for="file">Downloading progress:</label>
-            <progress id="file" value="32" max="100"> 32% </progress>
-        </div> -->
-
-    </div><!--End of skills section-->
-
+   
     <div class="servicesMain" id="servicesMain">
         <h1>My Services</h1>
         <p>From user onboarding to feedback and review, our products consist of an integrated set of experiences working together seamlessly.</p>
@@ -144,9 +171,7 @@
             <div class="card">
                 <img src="images/web1.png" alt="web development">
                 <h2>Web development</h2>
-                <p>I develop dynamics websites that helps transform your brand into a visual story. 
-                    I turn your website into an effective way to engage with your audience and a high-performing marketing tool for your business.
-                    My workflow involves collaboration with developers. 
+                <p>I develop dynamics websites that helps transform your brand into a visual story. I turn your website into an effective way to engage with your audience and a high-performing marketing tool for your business. My workflow involves collaboration with developers. 
                 </p>
 
             </div>
@@ -155,18 +180,14 @@
 
                 <img src="images/android.jpg" alt="android app">
                 <h2>Android App development</h2>               
-                <p>I covers the most up-to-date platforms, technologies, application servers, frameworks, tools, and components. 
-                    You can rely on our experience and delegate us the choice of the most relevant technologies for your project. 
-                    However if you already have specified requirements I’ll make sure to follow them.</p>
+                <p>I covers the most up-to-date platforms, technologies, application servers, frameworks, tools, and components. You can rely on our experience and delegate us the choice of the most relevant technologies for your project. However if you already have specified requirements I’ll make sure to follow them.</p>
 
             </div>
 
             <div class="card">
                 <img src="images/uxui.jpeg" alt="ux ui designing">
                 <h2>ux/ui development</h2>
-                <p>I aim at creating visually appealing, brand strengthening digital interfaces that attract and retain users.
-                    I possess strong creative, technical and problem-solving skills. I am self-directed but also collaborative. 
-                    We put user needs at the center of our efforts focusing on designing usable, delightful, efficient, and fun experiences.
+                <p>I aim at creating visually appealing, brand strengthening digital interfaces that attract and retain users. I possess strong creative, technical and problem-solving skills. I am self-directed but also collaborative. We put user needs at the center of our efforts focusing on designing usable, delightful, efficient, and fun experiences.
                 </p>
 
             </div>
@@ -252,7 +273,7 @@
     <footer>
         <div class="footerCon">
             <div id="menuFooter">
-                <h4>Useful Links</h4>
+                <h1>TheLioness</h1>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#aboutUsMain">About Us</a></li>
@@ -288,7 +309,11 @@
                 </div>
             </div>
         </div>
+
+        <div class="copyright">
+            <p>All rights reserved. Copyright. 2022</p> 
         </div>
+        
     </footer>
 
 

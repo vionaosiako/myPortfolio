@@ -1,9 +1,9 @@
 
 *{
     padding: 0;
-    margin: 5px;
+    margin: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 1rem;
     
 }
 
@@ -12,12 +12,13 @@
     color: #200bf4;
 }
 
-.nav{
+.banner{
     background-image: url(images/IMG-20220222-WA0010.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -43,18 +44,25 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+#menu ul li a:hover{
+ color: #200bf4;
+}
 .aboutUsMain{
     text-align: center;
+    background-color: rgba(128, 128, 128, 0.171);
 }
 
 .aboutUs{
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 30px;
-    padding: 20px;
     justify-content: center;
     /* font-size: 30px; */
+}
+
+.aboutUs img{
+    height: 350px;
 }
 
 .resumeMain{
@@ -66,6 +74,16 @@
     justify-content:space-around;    
 }
 
+.resume table{
+    text-align: left;
+    /* padding: 2rem; */
+    max-width: 5px;
+    
+}
+
+.resume table, th, td{
+    border: 1px solid black;
+}
 .resumeCard{
     width: 50%;
     margin: 20px;
@@ -145,10 +163,49 @@
 }
 
 footer{
-    background-color: yellow;
+  align-items: center;  
 }
 
 .footerCon{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: yellow;    
 }
+
+#menuFooter ul{
+    list-style: none;
+}
+
+#menuFooter ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#menuFooter ul li a:hover{
+    color: #200bf4;
+}
+
+h4{
+    color: #200bf4;
+}
+
+.socialLinks ul{
+    list-style: none;
+}
+
+.socialLinks ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.socialLinks ul li a:hover{
+    color: #200bf4;
+}
+
+.copyright{
+    text-align: center;
+    margin: 20px;
+}
+
+
