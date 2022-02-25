@@ -270,11 +270,14 @@ h4{
         flex-direction: column;
         margin: 5px;
     }
+         
+}
 
+@media screen and (max-width:1000px){
     .navbar{
         position: relative;   
     }
-  
+    
 }
 
 
