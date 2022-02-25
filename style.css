@@ -27,6 +27,11 @@ html {
     display: flex;
     justify-content: space-between;
     background-color: yellow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: top 0.3s;
 }
 
 .navbar h1{
@@ -52,6 +57,7 @@ html {
 #menu ul li a:hover{
  color: #200bf4;
 }
+
 .aboutUsMain{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.171);

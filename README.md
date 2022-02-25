@@ -18,12 +18,12 @@
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 * CSS - which was used to style the page.
-*git - which was used to help host the page in github
+* git - which was used to help host the page in github
 ## Reference
 * https://www.w3schools.com/html/
 * https://www.w3schools.com/css/default.asp
 * lms
-[Go Back to the top](#description))
+([Go Back to the top](#description))
 ## Licence
 MIT License
 Copyright (c) [2022] [Viona Osiako]
@@ -42,7 +42,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-[Go Back to the top](#description))
+[Go Back to the top]((#description))
 ## Authors Info
 Linked - [Viona Osiako](https://www.linkedin.com/in/viona-osiako-54094a170)
 [Go Back to the top](#description))
